@@ -1,5 +1,5 @@
 <?php
-    $conn=mysqli_connect("localhost","root","","manoj");
+    $conn=mysqli_connect("localhost","root","","karthik");
     session_start();
     if(!$conn)
     {
@@ -14,7 +14,7 @@
             $password=$_POST["pass"];
             // $sql="select * from voters where aadhar_number like '$aadhar' and password like '$password'";
             // $res=mysqli_query($conn,$sql);
-            if($aadhar=='admin' && $password=='2566')
+            if($aadhar=='admin' && $password=='1361125') //2566
             {
                 // $row=mysqli_fetch_assoc($res);
                 $_SESSION["admin"]='admin';
