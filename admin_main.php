@@ -70,7 +70,7 @@
 <body>
 <?php 
     if (isset($_SESSION["admin"])) {
-        $conn=mysqli_connect("localhost","root","","manoj");
+        $conn=mysqli_connect("localhost","root","","karthik");
     $sql = "SELECT count(*) as 'out' FROM voters WHERE status LIKE 'No'";
     $res=mysqli_query($conn,$sql);
     $row=mysqli_fetch_assoc($res);
