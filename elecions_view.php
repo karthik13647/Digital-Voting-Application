@@ -18,7 +18,7 @@ session_start();
 $cou=0;
     include('nav.php');
 
-    $conn=mysqli_connect("localhost","root","","manoj");
+    $conn=mysqli_connect("localhost","root","","karthik");
     if(!$conn)
     {
         echo "Not Connected";
