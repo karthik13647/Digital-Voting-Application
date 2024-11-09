@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $conn=mysqli_connect("localhost","root","","manoj");
+    $conn=mysqli_connect("localhost","root","","karthik");
     if(!$conn)
     {
         echo "Not Connected";
