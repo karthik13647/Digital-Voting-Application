@@ -1,5 +1,5 @@
 <?php 
-    $conn=mysqli_connect("localhost","root","","manoj");
+    $conn=mysqli_connect("localhost","root","","karthik");
 
      $que='SELECT count(*) FROM voters';
      $out=mysqli_query($conn,$que);
