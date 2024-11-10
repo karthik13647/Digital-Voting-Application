@@ -121,7 +121,7 @@ h3 {
         }
         $aadhar = $_SESSION["ano"];
         $name=$_SESSION["name"];
-        $conn = mysqli_connect("localhost", "root", "", "manoj");
+        $conn = mysqli_connect("localhost", "root", "", "karthik");
         $sql = "select * from voters where aadhar_number like '$aadhar'";
         $res = mysqli_query($conn, $sql);
         if (mysqli_num_rows($res) > 0) {
