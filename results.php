@@ -2,7 +2,7 @@
 <?php
     include('admin_main.php');
     $dd=1;
-    $conn=mysqli_connect("localhost","root","","manoj");
+    $conn=mysqli_connect("localhost","root","","karthik");
     if(!$conn)
     {
         echo "Not Connected";
