@@ -1,5 +1,5 @@
 <?php
-    $conn=mysqli_connect("localhost","root","","manoj");
+    $conn=mysqli_connect("localhost","root","","karthik");
     session_start();
     if(!$conn)
     {
