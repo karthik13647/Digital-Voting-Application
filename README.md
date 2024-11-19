@@ -21,3 +21,5 @@ MySQL: A relational database management system based on SQL – Structured Query
 PHP: A server-side scripting language designed for web development.
 
 HTML/CSS/JavaScript: Front-end technologies used for creating user interfaces and interactive features.
+
+© 2024 Karthik Batta. All rights reserved.
